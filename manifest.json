@@ -1,0 +1,14 @@
+{
+	"name": "Speeldoos uploader",
+	"manifest_version": 2,
+	"version": "0.1.0",
+	"content_scripts": [
+		{
+			"matches": [
+				"https://*.passtheheadphones.me/upload.php*"
+			],
+			"css": [],
+			"js": ["speeldoos-uploader.user.js"]
+		}
+	]
+}
